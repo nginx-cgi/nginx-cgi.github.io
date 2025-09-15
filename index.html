@@ -8,6 +8,7 @@
     body { font-family: system-ui, sans-serif; margin: 0; line-height: 1.6; background: #f9fafb; color: #111827; }
     header { display: flex; justify-content: space-between; align-items: center; background: #1f2937; padding: 1rem 2rem; }
     header h1 { color: #fff; margin: 0; font-size: 1.5rem; }
+    header h1 small { font-size: 1rem; font-style: italic; font-weight: normal; }
     header a { color: #fff; background: #2563eb; padding: 0.5rem 1rem; border-radius: 6px; text-decoration: none; font-weight: 600; }
     header a:hover { background: #1d4ed8; }
     main { max-width: 900px; margin: 2rem auto; padding: 0 1rem; background: #fff; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
@@ -22,7 +23,13 @@
 </head>
 <body>
   <header>
-    <h1>nginx-cgi</h1>
+    <h1>nginx-cgi
+        <small>
+          <!-- ver_start -->
+v0.14.1
+          <!-- ver_end -->
+        </small>
+    </h1>
     <a href="https://github.com/pjincz/nginx-cgi">View on GitHub →</a>
   </header>
 
